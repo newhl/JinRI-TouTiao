@@ -6,6 +6,8 @@ import store from './store'
 import Vant from 'vant'
 //  引入Vant 组件库的样式
 import 'vant/lib/index.css'
+// 引入自定义的样式
+import './styles/index.css'
 Vue.use(Vant)
 
 Vue.config.productionTip = false
